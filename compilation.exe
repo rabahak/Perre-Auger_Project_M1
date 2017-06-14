@@ -1,0 +1,3 @@
+g++ -std=gnu++11 -c source/distribution.cc source/fonctions.cc source/gerbe.cc source/maille.cc source/reseau.cc source/main.cc
+g++ distribution.o fonctions.o gerbe.o maille.o reseau.o main.o -o test.exe
+mv distribution.o fonctions.o gerbe.o maille.o reseau.o main.o Fichiers_objets

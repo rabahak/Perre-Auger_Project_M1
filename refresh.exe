@@ -1,0 +1,3 @@
+g++ -c source/main.cc
+mv main.o Fichiers_objets
+g++ Fichiers_objets/distribution.o Fichiers_objets/fonctions.o Fichiers_objets/gerbe.o Fichiers_objets/maille.o Fichiers_objets/reseau.o Fichiers_objets/main.o -o test.exe
